@@ -28,5 +28,5 @@ jobs:
 
     - name: Linting and tests
       run: |
-        # flake8
+        flake8
         PYTHONPATH=src pytest 
